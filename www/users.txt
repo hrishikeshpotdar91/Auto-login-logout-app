@@ -1,0 +1,10 @@
+[{
+    "email": "hrishikesh.potdar@mavs.uta.edu","phoneno": "+16822342481"
+},{
+    "email": "mirrella.mahapatra@mavs.uta.edu","phoneno": "+16825534182"
+},{
+    "email": "siddhesh.joshi@mavs.uta.edu","phoneno": "+16822518009"
+}]
+
+
+melody ricks melody.ricks@uta.edu

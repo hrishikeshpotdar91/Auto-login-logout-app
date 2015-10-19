@@ -1,0 +1,271 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+ @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600);
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    
+    background-attachment:fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+.app {
+    
+ position: absolute;
+  left: 0%;
+  top: 20%;
+  width: 100%;
+  /* width: 311px; */
+  text-align: center;
+  /* padding: 120px 0px 0px 0px; */
+  /* margin: -115px 0px 0px -112px; */  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+          /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+h1 {
+   font-size: 54px;
+  font-weight: normal;
+  /* margin: 30px -47px; */
+  border-radius: 52px;
+  overflow: visible;
+  /* width: 322px; */
+  /* height: 65px; */
+     color: #4d665e;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* text-align: center; */
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+.enter-password {
+
+    display: none;
+}
+
+.submit, .submit-password {
+
+ margin: 153px 0px;
+  /* border-radius: 51px; */
+  height: 130px;
+  width: 100%;
+  font-size: 84px;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  background: #4E6761;
+  border: solid 3px grey;
+}
+
+.email-id, .password {
+  /* border-radius: 22px; */
+  /* border-color: grey; */
+  /* border-bottom: snow; */
+  /* border-top: black; */
+  color: #4E6761;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 95%;
+  /* float: right; */
+  height: 171px;
+  /* padding: 12px 12px; */
+  /* margin: 0px -90px; */
+  font-size: 75px;
+}
+}
+
+.register-h1 h1, .enter-password-h1 {
+  
+    font-size: 34px;
+  font-weight: normal;
+  margin: 30px -47px;
+  border-radius: 52px;
+  overflow: visible;
+  color: rgb(129, 129, 92);
+  width: 322px;
+  height: 65px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+.enter-password h3 {
+     
+        color: rgb(215, 44, 44);
+  font-size: 44px;
+}
+
+.register {
+
+      position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.employee-page {
+
+    display: none;
+    margin-top: -90px;
+}
+
+.sensor {
+
+
+  width: 280px;
+  height: 280px;
+  color: RED;
+  margin: auto;
+  font-size: 70px;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 5px solid #4d665e;
+  border-radius: 212px;
+  /* padding: 15px 40px; */
+  /* padding-left: 22px; */
+  /* padding-right: 52px; */
+  /* padding-top: 12px; */
+}
+
+.sensor p {
+
+      margin-top: 100px;
+}
+.welcome {
+
+    
+      font-size: 40px;
+  margin-bottom: 90px;
+    color: #4d665e;
+}
+
+.welcome p {
+
+ font-family: 'Source Sans Pro', sans-serif;
+  font-size: 44px;
+  color: #4d665e;
+}
+.time {
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 70px;
+  margin-top: 50px;
+  color: #4d665e;
+}
+
+.title-holder {
+
+      margin-top: -100px;
+    height: 350px;
+    width: 100%;
+}
+
+.title {
+text-align: center;
+  margin: auto;
+    color: #4E6761;
+  padding: auto;
+  height: 300px;
+  width: 300px;
+  /* background: grey; */
+  border-radius: 186px;
+  border: 6px solid;
+}
+
+.title p {
+
+      font-family: 'Source Sans Pro', sans-serif;
+    font-size: 37px !important;
+  margin-top: 131px;
+    color: #4E6761;
+}
+
+.title-holder p {
+
+    
+ font-family: 'Source Sans Pro', sans-serif;
+    
+  font-size: 20px;
+    color: #4E6761;
+}
+
+.admin-page {
+
+    display: none;
+}
+
+.active-employees p {
+
+    font-size: 45px;
+}
+
+.active-employees h1 {
+
+    font-size: 84px;
+}

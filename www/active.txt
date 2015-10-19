@@ -1,0 +1,52 @@
+{
+    "active": [
+        {
+            "name": "hrishikesh potdar",
+            "email": "hrishikesh.potdar@mavs.uta.edu",
+            "logintime": "20:50",
+            "active": "1"
+        },
+        {
+            "name": "hrishikesh potdar",
+            "email": "hrishikesh.potdar@mavs.uta.edu",
+            "logouttime": "04:00",
+            "active": "0"
+        },
+	{
+            "name": "hrishikesh potdar",
+            "email": "hrishikesh.potdar@mavs.uta.edu",
+            "logintime": "16:50",
+            "active": "1"
+        },
+        {
+            "name": "hrishikesh potdar",
+            "email": "hrishikesh.potdar@mavs.uta.edu",
+            "logouttime": "22:00",
+            "active": "0"
+        },
+        {
+            "name": "mirrella mahapatra",
+            "email": "mirrella.mahapatra@mavs.uta.edu",
+            "logintime": "20:56",
+            "active": "1"
+        },
+        {
+            "name": "mirrella mahapatra",
+            "email": "mirrella.mahapatra@mavs.uta.edu",
+            "logouttime": "04:56",
+            "active": "0"
+        },
+        {
+            "name": "siddhesh joshi",
+            "email": "siddhesh.joshi@mavs.uta.edu",
+            "logintime": "1:57",
+            "active": "1"
+        },
+        {
+            "name": "siddhesh joshi",
+            "email": "siddhesh.joshi@mavs.uta.edu",
+            "logouttime": "10:57",
+            "active": "0"
+        }
+    ]
+}

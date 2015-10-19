@@ -1,0 +1,13 @@
+
+<?php
+// Get remote file contents, preferring faster cURL if available
+$file = 'users.txt';
+$contents = file_get_contents($file, $json, FILE_APPEND | LOCK_EX);
+print_r($contents)
+	
+
+	
+
+?>
+
+

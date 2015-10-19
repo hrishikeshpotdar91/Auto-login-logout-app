@@ -1,0 +1,28 @@
+{
+    "active": [
+        {
+            "name": "hrishikesh potdar",
+            "email": "hrishikesh.potdar@mavs.uta.edu",
+            "logintime": "20:50",
+            "active": "1"
+        },
+        {
+            "name": "hrishikesh potdar",
+            "email": "hrishikesh.potdar@mavs.uta.edu",
+            "logouttime": null,
+            "active": "0"
+        },
+        {
+            "name": "hrishikesh potdar",
+            "email": "hrishikesh.potdar@mavs.uta.edu",
+            "logintime": "20:56",
+            "active": "1"
+        },
+	{
+            "name": "mirrella mahapatra",
+            "email": "mirrella.mahapatra@mavs.uta.edu",
+            "logintime": "20:56",
+            "active": "1"
+        }
+    ]
+}
